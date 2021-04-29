@@ -112,13 +112,27 @@ h1{
 
 .jumbotron-img{
     width: 73%;
+    padding-left: 60px;
 }
 
 .jumbotron-text p{
     font-size: 19px;
     line-height: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
+
+.jumbotron-text a{
+    font-size: 18px;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+}
+
+.jumbotron-text .annulla{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
 /* fine jumbotron */
 
 
@@ -163,7 +177,7 @@ h1{
     background-color: lightseagreen;
 }
 
-.debug .jumbotron-img{
+.debug {
     height: 80px;
     background-color:lightslategray;
 }
