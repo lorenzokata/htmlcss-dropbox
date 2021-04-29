@@ -2,4 +2,196 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header{
+    height:80px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+header > div, header > nav{
+    height: 80px;
+    line-height: 80px;
+}
+/* fine header */
+
+/* clearfix */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine clearfix */
+
+/* float */
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+/* float */
+
+/* logo */
+.logo{
+    width: 8%;
+}
+
+.logo img{
+    height: 30%;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+/* fine logo */
+
+/* nav */
+nav{
+    width: 80%;
+}
+/* fine nav */
+
+/* li */
+header li{
+    display: inline-block;
+    padding:0 20px;
+}
+/* fine li */
+
+/* a */
+header a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* fine a */
+
+/* login */
+.login{
+    width: 12%;
+}
+
+.blue-btn{
+    background-color: #3b85ff;
+    padding: 7px 18px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* fine login */
+
+/* jumbotron */
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 821px;
+    padding-top: 80px;
+}
+
+.jumbotron-box{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 108px;
+    letter-spacing: -3px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-text{
+    width: 27%;
+}
+
+.jumbotron-img{
+    width: 73%;
+}
+
+.jumbotron-text p{
+    font-size: 19px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+/* fine jumbotron */
+
+
+
+
+
+
+
+
+
+
+
+
+/* container */
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* fine container */
+
+
+
+
+
+
+
+
+
+
+/* debug */
+/* .debug header{
+    background-color:lightseagreen;
+} */
+
+.debug{
+    background-color: lightsalmon;
+}
+
+.debug {
+    height: 80px;
+    background-color: lightseagreen;
+}
+
+.debug .jumbotron-img{
+    height: 80px;
+    background-color:lightslategray;
+}
+
+.debug {
+
+}
+
+.debug {
+
+}
+
+.debug {
+
+}
+
+.debug {
+
+}
+
+.debug {
+
+}
+
+.debug {
+
+}
+
+.debug {
+
 }
