@@ -11,6 +11,7 @@ header{
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 999;
 }
 
 header > div, header > nav{
@@ -68,6 +69,10 @@ header a{
     font-size: 18px;
     text-decoration: none;
 }
+
+header li:not(.login li:last-child):hover{
+    border-bottom: 2px solid black;
+}
 /* fine a */
 
 /* login */
@@ -76,7 +81,7 @@ header a{
 }
 
 .blue-btn{
-    background-color: #3b85ff;
+    background-color: #0061ff;
     padding: 7px 18px;
     color: white;
     font-size: 16px;
@@ -89,6 +94,7 @@ header a{
     background-color: #b4d0e7;
     height: 821px;
     padding-top: 80px;
+    margin-bottom: 250px;
 }
 
 .jumbotron-box{
@@ -132,9 +138,25 @@ h1{
     font-size: 16px;
 }
 
+a.arrow{
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    padding: 0 0;
+}
 
 /* fine jumbotron */
 
+/* titolo sezioni */
+
+section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+}
+
+/* inizio prima sezione */
 
 
 
@@ -148,7 +170,7 @@ h1{
 
 /* container */
 .container{
-    width: 80%;
+    width: 55%;
     height: 100%;
     margin: 0 auto;
 }
@@ -163,23 +185,157 @@ h1{
 
 
 
-/* debug */
-/* .debug header{
-    background-color:lightseagreen;
-} */
 
+
+
+
+
+
+/* CLIENTS SECTION */
+
+.clients-section{
+    margin-top: 500px; /*DA ELIMINARE*/
+}
+
+
+.clients-section h2{
+    margin-bottom: 30px;
+    max-width: 60%;
+}
+
+.clients-section a{
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+} 
+
+.square-clients{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.big-square{
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.small-square{
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.small-square img{
+    width: 150px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-3 img{
+    height: auto;
+}
+
+.brand-1{
+    background-color: #a2d39b;
+}
+.brand-2{
+    background-color: #61082b;
+}
+.brand-3{
+    background-color: #0093ce;
+}
+.brand-4{
+    background-color: #ff1c1c;
+}
+.brand-5{
+    background-color: #d5001f;
+}
+.brand-6{
+    background-color: #b4d0e7;
+}
+.brand-7{
+    background-color: #0d2481;
+}
+.brand-8{
+    background-color: #ffd830;
+}
+
+.big-square2{
+    padding: 110px 50px ;
+}
+
+.big-square2 img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.big-square2 hr{
+    width: 60px;
+    border-width: 1px;
+    color: #d0d0d3;
+    border-style: solid;
+}
+
+.big-square2 p{
+    margin: 100px 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+/* FINE CLIENTS SECTION */
+
+
+/* PROVA GRATUITA SECTION */
+
+.prova-gratuita-section{
+    background-color: #b4d0e7;
+    height: 332px;
+    padding: 120px 0;
+}
+
+.prova-gratuita-section h2{
+    float: left;
+    color: #61082b;
+    max-width: 65%;
+}
+
+.prova-gratuita-section a{
+    float: right;
+    text-decoration: none;
+    padding: 12px 35px;
+    background-color: #fff;
+    color: black;
+
+
+}
+
+/* FINE PROVA GRATUITA SECTION */
+
+
+
+
+
+
+
+
+/* 
 .debug{
-    background-color: lightsalmon;
 }
 
 .debug {
-    height: 80px;
-    background-color: lightseagreen;
 }
 
 .debug {
-    height: 80px;
-    background-color:lightslategray;
 }
 
 .debug {
@@ -208,4 +364,4 @@ h1{
 
 .debug {
 
-}
+} */
