@@ -69,11 +69,16 @@ header a{
     font-size: 18px;
     text-decoration: none;
 }
+/* fine a */
 
+/* header hover */
 header li:not(.login li:last-child):hover{
     border-bottom: 2px solid black;
 }
-/* fine a */
+
+header .blue-btn:hover{
+    filter: opacity(80%);
+}
 
 /* login */
 .login{
@@ -92,7 +97,7 @@ header li:not(.login li:last-child):hover{
 /* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    height: 821px;
+    height: 790px;
     padding-top: 80px;
     margin-bottom: 250px;
 }
@@ -119,6 +124,10 @@ h1{
 .jumbotron-img{
     width: 73%;
     padding-left: 60px;
+}
+
+.jumbotron-img img{
+    width: 100%;
 }
 
 .jumbotron-text p{
