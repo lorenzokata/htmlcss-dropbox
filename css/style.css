@@ -43,6 +43,7 @@ header{
     position: fixed;
     background-color: white;
     z-index: 999;
+    border: 0.8px solid #d0d0d3;
 }
 
 header > div, header > nav{
@@ -185,20 +186,27 @@ section h2{
     margin-bottom: 40px;
 }
 
+section p{
+    font-size: 18px;
+    line-height: 20px;
+}
+
 /* FINE COMUNI DI SECTION */
+
+
 
 
 
 /* INIZIO PLANS SEZIONE */
 
-.plans-section li{
+.plans-section .radio li{
     display: inline-block;
     margin-right: 15px;
     font-size: 18px;
     line-height: 20px;
 }
 
-.plans-section li::before{
+.plans-section .radio li::before{
     display: inline-block;
     content: "";
     border-radius: 50%;
@@ -207,13 +215,226 @@ section h2{
     width: 10px;
     vertical-align: middle;
     margin-right: 5px;
-
 }
 
-.plans-section input{
+
+/* COLS E BOX 3 COLONNE */
+.cols-box{
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.cols-box .cols{
+    float: left;
+    width: calc((100% - 120px) / 3);
+}
+
+.cols-box .centrale{
+    margin: 0 60px;
+}
+/* FINE COLS E BOX 3 COLONNE */
+
+
+.plans-section p{
+    font-size: 16px;
+}
+
+.plans-section .cols, .row{
+    border: 0.8px solid #d0d0d3;;
+}
+
+.plans-section .cols > p:first-child, .plans-section .row > p:first-child{
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 0.8px solid #d0d0d3;
+}
+
+.plans-section .singolo:before{
+    content:url(../img/singolo.svg);
     margin-right: 5px;
 }
 
+.plans-section .team:before{
+    content:url(../img/team.svg);
+    margin-right: 5px;
+}
+
+.cols-padding{
+    padding: 30px 30px;
+}
+
+.col1{
+    padding-bottom: 65px;
+}
+
+.col3{
+    padding-bottom: 53px;
+}
+
+.plans-section .cols h3, .row h3, .partner-box h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cols-padding > p:nth-child(3){
+    color: #637381;
+    font-size: 14px;
+}
+
+.cols-padding > p:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.plans-details{
+    margin-top: 40px
+}
+
+.plans-details li{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    letter-spacing: 0.5px;    
+}
+
+.col1 .plans-details li:nth-child(1){
+    list-style: url(../img/icona-utente.svg);
+}
+
+.col2 .plans-details li:nth-child(1), .col3 .plans-details li:nth-child(1){
+    list-style: url(../img/icona-gruppo.svg);
+}
+
+.cols-padding .plans-details li:nth-child(2){
+    list-style: url(../img/icona-cartella.svg);
+}
+
+.col1 .plans-details li:nth-child(3){
+    list-style: url(../img/icona-matita.svg);
+}
+
+.col2 .plans-details li:nth-child(3), .col3 .plans-details li:nth-child(3){
+    list-style: url(../img/icona-smile.svg);
+}
+
+.plans-btn{
+    margin: 40px auto 20px;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.col1 .plans-btn{
+    margin: 61px auto 20px;
+}
+
+.cols-padding p > span{
+    border-bottom: 0.8px solid #d0d0d3;
+    padding-bottom: 30px;
+}
+
+.buy-now{
+    color: blue;
+}
+
+.buy-now:hover{
+    text-decoration: none;
+}
+
+.cols-padding h4{
+    margin: 60px 0 25px;
+    font-size: 18px;
+}
+
+.cols-padding .highlights li{
+    list-style: ' \2713';
+    list-style-position: outside;
+    color: #0061ff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.cols-padding .highlights li span{
+    color: black;
+}
+
+.row{
+    margin-bottom: 120px;
+}
+
+
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
+}
+
+.row .plans-btn{
+    margin: 0;
+    padding: 15px 50px;
+}
+
+.row .fleft p:nth-child(2){
+margin-bottom: 20px;
+}
+
+.row .fleft p:nth-child(3){
+    font-size: 13px;
+}
+
+/* riga partner */
+
+.partner-box .fleft{
+    width: 50%;
+}
+
+.partner-box img{
+    width: 100%;
+}
+
+.partner-btn{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+.p-box p{
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.p-box{
+    padding-left: 81px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.partner-box > div:last-child{
+    height: 455.017px;
+    position: relative;
+}
+
+
+
+
+
+
+/* OPERATION SECTION */
+
+.operation-section{
+    margin-top: 120px;
+}
 
 
 
@@ -359,47 +580,3 @@ section h2{
 
 /* FINE PROVA GRATUITA SECTION */
 
-
-
-
-
-
-
-
-/* 
-.debug{
-}
-
-.debug {
-}
-
-.debug {
-}
-
-.debug {
-
-}
-
-.debug {
-
-}
-
-.debug {
-
-}
-
-.debug {
-
-}
-
-.debug {
-
-}
-
-.debug {
-
-}
-
-.debug {
-
-} */
