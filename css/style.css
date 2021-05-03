@@ -96,7 +96,7 @@ header a{
     width: 12%;
 }
 
-header .blue-btn:hover{
+.blue-btn:hover{
     filter: opacity(80%);
 }
 /* FINE LOGIN */
@@ -216,7 +216,7 @@ section p{
     margin-right: 5px;
 }
 
-.plans-section .radio li:hover li::before{
+.plans-section .radio li:hover:before{
     display: inline-block;
     content: "";
     border-radius: 50%;
@@ -418,6 +418,10 @@ margin-bottom: 20px;
     letter-spacing: 1px;
 }
 
+.partner-btn:hover{
+    background-color: #f5f5f5;
+}
+
 .p-box p{
     margin-bottom: 40px;
     letter-spacing: 1px;
@@ -484,6 +488,10 @@ margin-bottom: 20px;
 .clients-section a{
     color: blue;
     text-decoration: underline;
+} 
+
+.clients-section a:hover{
+    text-decoration: none;
 } 
 
 .square-clients{
@@ -594,8 +602,10 @@ margin-bottom: 20px;
     padding: 12px 35px;
     background-color: #fff;
     color: black;
+}
 
-
+.prova-gratuita-section a:hover{
+    background-color: #f5f5f5;
 }
 
 /* FINE PROVA GRATUITA SECTION */
