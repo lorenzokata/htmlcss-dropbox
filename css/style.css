@@ -123,7 +123,6 @@ h1{
     letter-spacing: -3px;
     font-family: 'Antonio', sans-serif;
     font-weight: 700;
-    padding-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -207,6 +206,17 @@ section p{
 }
 
 .plans-section .radio li::before{
+    display: inline-block;
+    content: "";
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.plans-section .radio li:hover li::before{
     display: inline-block;
     content: "";
     border-radius: 50%;
