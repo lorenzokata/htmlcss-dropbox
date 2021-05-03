@@ -230,7 +230,7 @@ section p{
     width: calc((100% - 120px) / 3);
 }
 
-.cols-box .centrale{
+.cols-box .centrale, .operation-row .centrale{
     margin: 0 60px;
 }
 /* FINE COLS E BOX 3 COLONNE */
@@ -405,6 +405,7 @@ margin-bottom: 20px;
     color: black;
     border: 2px solid black;
     padding: 10px 15px;
+    letter-spacing: 1px;
 }
 
 .p-box p{
@@ -436,15 +437,28 @@ margin-bottom: 20px;
     margin-top: 120px;
 }
 
+.operation-row{
+    margin-bottom: 100px;
+}
 
 
+.operation-row .fleft{
+    width: calc((100% - 120px) /  3);
+}
 
+.operation-row h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
 
+.operation-row img{
+    width: 100%;
+    margin-bottom: 20px;
+}
 
-
-
-
-
+.operation-row p{
+    line-height: 1.6;
+}
 
 
 
@@ -452,18 +466,12 @@ margin-bottom: 20px;
 
 /* CLIENTS SECTION */
 
-.clients-section{
-    margin-top: 500px; /*DA ELIMINARE*/
-}
-
-
 .clients-section h2{
     margin-bottom: 30px;
     max-width: 60%;
 }
 
 .clients-section a{
-    text-decoration: none;
     color: blue;
     text-decoration: underline;
 } 
@@ -554,6 +562,7 @@ margin-bottom: 20px;
 /* FINE CLIENTS SECTION */
 
 
+
 /* PROVA GRATUITA SECTION */
 
 .prova-gratuita-section{
@@ -580,3 +589,6 @@ margin-bottom: 20px;
 
 /* FINE PROVA GRATUITA SECTION */
 
+
+
+/* DOMANDE FREQUENTI SECTION */
