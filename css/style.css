@@ -231,13 +231,15 @@ section p{
 /* COLS E BOX 3 COLONNE */
 .cols-box{
     margin-top: 60px;
-    width: 100%;
     margin-bottom: 50px;
+    width: 100%;
+    height: 850px;
 }
 
 .cols-box .cols{
     float: left;
     width: calc((100% - 120px) / 3);
+    height: 100%;
 }
 
 .cols-box .centrale, .operation-row .centrale{
@@ -306,7 +308,6 @@ section p{
     margin-left: 30px;
     font-size: 14px;
     margin-bottom: 10px;
-    margin-left: 16px;
     letter-spacing: 0.5px;    
 }
 
@@ -338,7 +339,7 @@ section p{
 }
 
 .col1 .plans-btn{
-    margin: 61px auto 20px;
+    margin: 46px auto 20px;
 }
 
 .cols-padding p > span{
