@@ -594,8 +594,8 @@ margin-bottom: 20px;
 
 /* DOMANDE FREQUENTI SECTION */
 
-.debug .faq{
-    height: 500px;
+.faq{
+    margin-bottom: 200px;
 }
 
 
@@ -662,3 +662,61 @@ margin-bottom: 20px;
 
 
 /* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.footer-top .fleft{
+    width: 20%;
+}
+
+.footer-top li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.footer-top .fleft li:first-child{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-top li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-top a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    line-height:22px;
+    padding-bottom: 150px;
+}
+
+.footer-bottom img{
+    height: 22px;
+    filter: invert(1);
+    opacity: 70%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-bottom span{
+    color: grey;
+}
+
+.footer-bottom span:nth-of-type(2){
+    display: inline-block;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+}
