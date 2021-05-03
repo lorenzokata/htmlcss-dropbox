@@ -241,7 +241,7 @@ section p{
 }
 
 .plans-section .cols, .row{
-    border: 0.8px solid #d0d0d3;;
+    border: 0.8px solid #d0d0d3;
 }
 
 .plans-section .cols > p:first-child, .plans-section .row > p:first-child{
@@ -569,6 +569,7 @@ margin-bottom: 20px;
     background-color: #b4d0e7;
     height: 332px;
     padding: 120px 0;
+    margin-bottom: 150px;
 }
 
 .prova-gratuita-section h2{
@@ -592,3 +593,72 @@ margin-bottom: 20px;
 
 
 /* DOMANDE FREQUENTI SECTION */
+
+.debug .faq{
+    height: 500px;
+}
+
+
+.faq h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.faq li:first-of-type{
+    padding: 30px 40px 30px 0;
+    border-top: 0.8px solid #d0d0d3;
+    border-bottom: 0.8px solid #d0d0d3;
+    list-style: none;
+}
+
+.faq li{
+    padding: 30px 40px 30px 0;
+    border-bottom: 0.8px solid #d0d0d3;
+    list-style: none;
+}
+
+.faq h4{
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.faq li div{
+    float: right;
+    text-align: right;
+}
+
+.faq li span{
+    display: inline-block;
+    transform: rotate(90deg);
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.faq li p{
+    display: none;
+    color: #8c98a2;
+    line-height: 1.6;
+    padding-top: 15px;
+    max-width: 85%;
+}
+
+.faq li p a{
+    color: #8c98a2;
+}
+
+.faq li:hover > p{
+    display: inline-block;
+}
+
+.faq li:hover > div span{
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+
+
+/* FINE DOMANDE FREQUENTI SECTION */
+
+
+
+/* FOOTER */
